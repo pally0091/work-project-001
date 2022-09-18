@@ -27,6 +27,10 @@ nav ul a{
     border: 3px solid;
     padding: 0.75rem 1.15rem;
 }
+nav ul a:hover{
+    background-color: aliceblue;
+    color: black;
+}
 header{
     display: flex;
     width: 90%;
@@ -60,4 +64,22 @@ header img{
     border-radius: 5px;
     box-shadow: 0.20rem 0.75rem 0.75rem black;;
     
+}
+#form{
+    margin: 0% 15%;
+    width: 70%;
+}
+#form div{
+    width: 100%;
+}
+.form-control{
+    width: 100%;
+}
+button{
+    padding: 0.60rem;
+    margin-left: 87%;
+    background-color: aqua;
+}
+button:hover{
+    background-color: chartreuse;
 }
