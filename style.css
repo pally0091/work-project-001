@@ -83,3 +83,32 @@ button{
 button:hover{
     background-color: chartreuse;
 }
+
+#section-two{
+    display: flex;
+    width: 90%;
+    margin: 0 5% 0 5%;
+    box-shadow: 0.75rem 0.75rem 0.75rem black;
+    margin-top: 15px;
+    border: 2px dotted black;
+    border-radius: 5px;
+}
+
+#section-two div{
+    margin: 1rem;
+    padding: 0.60rem;
+    background-color: aliceblue;
+    border-radius: 5px;
+    text-align: center;
+}
+
+footer{
+    background-color: darkslategrey;
+    padding: 0.50rem;
+    margin: 1rem -0.25rem -0.50rem -0.25rem;
+    text-align: center;
+    line-height: .20rem;
+}
+p{
+    text-align: justify;
+}
